@@ -10,7 +10,7 @@ resource "aws_instance" "roboshop" {
       Coponent = var.instances[count.index]
       Name = var.instances[count.index]
     }
-    
+     
   )
 }
 # ALLOW ALL SG
