@@ -3,7 +3,7 @@ locals {
   ec2_tags = merge(
     var.common_tags,
     {
-        environment = "dev",
+        environment = "dev", 
         version = "1.0" 
     }
   ) 
