@@ -6,5 +6,5 @@ locals {
         environment = "dev",
         version = "1.0"
     }
-  )
+  ) 
 } 
